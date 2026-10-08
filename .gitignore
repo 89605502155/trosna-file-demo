@@ -1,0 +1,9 @@
+/rust/target
+/rust/.cargo/
+__pycache__/
+.venv/
+# files created by running the demos (the committed samples live in samples/)
+/*.trosna
+/rust/*.trosna
+/python/*.trosna
+/cli/*.trosna

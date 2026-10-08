@@ -1,0 +1,11 @@
+[package]
+name = "trosna-demo"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Create a .trosna file with a small time series"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+# The Trosna library, straight from its GitHub repository.
+trosna = { git = "https://github.com/89605502155/trosna-file" }
